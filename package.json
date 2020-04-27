@@ -1,0 +1,21 @@
+{
+    "name": "demo",
+    "version": "1.0.0",
+    "description": "demo project.",
+    "scripts": {
+        "lite": "lite-server",
+        "start": "tsc && npm run tsc:w & npm run lite"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.3.1"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.0.0-rc.1",
+        "bootstrap": "^4.4.1",
+        "chart.js": "^2.9.3",
+        "jquery": "^3.4.1",
+        "moment": "^2.24.0"
+    }
+}
